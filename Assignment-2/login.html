@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Login</title>
+</head>
+<body>
+<!-- Header -->
+
+<header class="header page-width" id="header">
+    <nav class="navbar container">
+               <div class="menu" id="menu">
+                    <ul class="menu-inner">
+                        <li class="menu-item"><a href="product-listing.html" class="menu-link">Shop</a></li>
+                        <li class="menu-item"><a href="about.html" class="menu-link">About</a></li>
+                        <li class="menu-item"><a href="blog-post.html" class="menu-link">Blog</a></li>
+                        <li class="menu-item"><a href="#" class="menu-link">Stores</a></li>   
+                    </ul>
+                    <a href="#" class="brand">
+                        <svg width="86" height="20" viewBox="0 0 86 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_4022_255)">
+                                <path d="M74.7534 0.326904V19.7274H70.9932L60.4482 6.3487V19.673H55.925V0.326904H61.1839L70.3392 12.1798V0.326904H74.7534Z" fill="black"/>
+                                <path d="M45.4695 19.673V0.326904H50.1016V19.673H45.4695Z" fill="black"/>
+                                <path d="M23.7563 19.673V0.326904H39.9416V4.14162H28.3885V7.62936H35.2822V11.5258H28.3885V15.6675H41.0043V19.673H23.7563Z" fill="black"/>
+                                <path d="M9.91826 20C7.01181 20 4.63215 19.0554 2.77929 17.1662C0.92643 15.2589 0 12.8701 0 10C0 7.07539 0.935513 4.67757 2.80654 2.80654C4.67757 0.935514 7.04814 0 9.91826 0C11.7166 0 13.3697 0.390554 14.8774 1.17166C16.4033 1.93461 17.5568 3.06994 18.3379 4.57766C18.7193 5.3406 18.9646 5.99455 19.0736 6.53951H14.3597C14.2688 6.37602 14.1054 6.14896 13.8692 5.85831C13.3061 5.24069 12.5795 4.75931 11.6894 4.41417C11.1626 4.25068 10.5722 4.16894 9.91826 4.16894C8.31971 4.16894 7.05722 4.74115 6.13079 5.88556C5.20436 7.01181 4.74114 8.38329 4.74114 10C4.74114 11.6349 5.21344 13.0154 6.15804 14.1417C7.10263 15.2679 8.35604 15.8311 9.91826 15.8311C11.6803 15.8311 13.0154 15.2679 13.9237 14.1417C14.1962 13.7602 14.3506 13.5332 14.3869 13.4605H19.0736C18.8738 14.7139 18.3015 15.8583 17.3569 16.8937C16.4124 17.911 15.3134 18.6921 14.0599 19.2371C12.97 19.7457 11.5895 20 9.91826 20Z" fill="black"/>
+                                <circle cx="81.5" cy="17.5" r="2.5" fill="black"/>
+                                </g>
+                                <defs>
+                                <clipPath id="clip0_4022_255">
+                                <rect width="86" height="20" fill="white"/>
+                                </clipPath>
+                                </defs>
+                        </svg>
+                    </a>
+                <li class="menu-item">
+                    
+                        <svg width="124" height="24" viewBox="0 0 124 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_0_1)">
+                            <path d="M7 16.8125C7 16.8125 1.3125 13.75 1.3125 10.1406C1.3125 9.35741 1.62363 8.60627 2.17745 8.05245C2.73127 7.49863 3.48241 7.1875 4.26562 7.1875C5.50102 7.1875 6.55922 7.8607 7 8.9375C7.44078 7.8607 8.49898 7.1875 9.73438 7.1875C10.5176 7.1875 11.2687 7.49863 11.8225 8.05245C12.3764 8.60627 12.6875 9.35741 12.6875 10.1406C12.6875 13.75 7 16.8125 7 16.8125Z" stroke="#333333" stroke-linecap="round" stroke-linejoin="round"/>
+                            </g>
+                            <path d="M22.97 17H21.766V10.014C21.766 9.74333 21.766 9.51467 21.766 9.328C21.7753 9.14133 21.7847 8.96867 21.794 8.81C21.8033 8.642 21.8127 8.46933 21.822 8.292C21.6727 8.44133 21.5373 8.56733 21.416 8.67C21.2947 8.77267 21.1407 8.90333 20.954 9.062L19.89 9.93L19.246 9.104L21.948 7.004H22.97V17Z" fill="#333333"/>
+                           <a href="login.html"> <g clip-path="url(#clip1_0_1)">
+                            <path d="M66.6666 17.25V16.0833C66.6666 15.4645 66.4208 14.871 65.9832 14.4334C65.5456 13.9958 64.9521 13.75 64.3333 13.75H59.6666C59.0477 13.75 58.4543 13.9958 58.0167 14.4334C57.5791 14.871 57.3333 15.4645 57.3333 16.0833V17.25" stroke="#333333" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M62.0001 11.4167C63.2887 11.4167 64.3334 10.372 64.3334 9.08333C64.3334 7.79467 63.2887 6.75 62.0001 6.75C60.7114 6.75 59.6667 7.79467 59.6667 9.08333C59.6667 10.372 60.7114 11.4167 62.0001 11.4167Z" stroke="#333333" stroke-linecap="round" stroke-linejoin="round"/>
+                            </g></a>
+                            <a href="cart.html">
+                            <g clip-path="url(#clip2_0_1)">
+                            <path d="M108.812 8.9375H99.1875C98.9459 8.9375 98.75 9.13338 98.75 9.375V15.9375C98.75 16.1791 98.9459 16.375 99.1875 16.375H108.812C109.054 16.375 109.25 16.1791 109.25 15.9375V9.375C109.25 9.13338 109.054 8.9375 108.812 8.9375Z" stroke="#333333" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M101.812 10.25V8.5C101.812 7.91984 102.043 7.36344 102.453 6.9532C102.863 6.54297 103.42 6.3125 104 6.3125C104.58 6.3125 105.137 6.54297 105.547 6.9532C105.957 7.36344 106.188 7.91984 106.188 8.5V10.25" stroke="#333333" stroke-linecap="round" stroke-linejoin="round"/>
+                            </g>
+                            <path d="M122.28 17H115.672V15.978L118.29 13.332C118.794 12.828 119.219 12.38 119.564 11.988C119.909 11.596 120.171 11.2133 120.348 10.84C120.525 10.4573 120.614 10.042 120.614 9.594C120.614 9.04333 120.451 8.628 120.124 8.348C119.797 8.05867 119.373 7.914 118.85 7.914C118.365 7.914 117.935 7.998 117.562 8.166C117.198 8.334 116.825 8.56733 116.442 8.866L115.784 8.04C116.045 7.816 116.33 7.61533 116.638 7.438C116.955 7.26067 117.296 7.12067 117.66 7.018C118.033 6.91533 118.43 6.864 118.85 6.864C119.475 6.864 120.012 6.97133 120.46 7.186C120.908 7.40067 121.253 7.70867 121.496 8.11C121.748 8.502 121.874 8.97333 121.874 9.524C121.874 9.916 121.813 10.2893 121.692 10.644C121.571 10.9893 121.398 11.33 121.174 11.666C120.95 12.002 120.679 12.3427 120.362 12.688C120.045 13.0333 119.695 13.3927 119.312 13.766L117.226 15.824V15.88H122.28V17Z" fill="#333333"/></a>
+                            <defs>
+                            <clipPath id="clip0_0_1">
+                            <rect width="14" height="14" fill="white" transform="translate(0 5)"/>
+                            </clipPath>
+                            <clipPath id="clip1_0_1">
+                            <rect width="14" height="14" fill="white" transform="translate(55 5)"/>
+                            </clipPath>
+                            <clipPath id="clip2_0_1">
+                            <rect width="14" height="14" fill="white" transform="translate(97 5)"/>
+                            </clipPath>
+                            </defs>
+                        </svg>       
+                     </li>
+       </div>
+    </nav>
+</header>
+
+
+<!-- Login  -->
+
+
+<div class="image_text page-width login">
+    <div class="sub_image_text">
+    <div class="image_main">
+        <img src="Images/image_2024_02_24T14_23_37_110Z.png" alt="">
+    </div>
+
+    <div class="image_content">
+        <div class="content_login">
+            <div class="main">
+                <div class="login_heading">
+                    <h3>Log in to your account </h3>
+                </div>
+                <form action="">
+                    <input type="text"
+                           id="first"
+                           name="first"
+                           placeholder="Email Address" required>
+                    <input type="password"
+                           id="password"
+                           name="password"
+                           placeholder="Password" required>
+         
+                    <div class="wrap">
+                        <button type="submit">
+                            Submit
+                        </button>
+                    </div>
+                </form>
+                <div class="cein">
+                    <h3>New to CEIN?</h3>
+                    <p>With an account you can save products to your cabinate view your <br> order history and swiftly checkout using saved details.</p>
+                    <button><a href="signup.html">Create account</a></button> 
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+<!-- Footer -->
+<footer>
+    <div class="footer">
+        <div class="page-width footer_list">
+        <div class="list_one">
+            <ul>
+                <li><img src="Images/Logo.png" alt=""></li>
+                <li><p>FOLLOW US</p></li>
+                <li><img src="Images/SNS.png" alt=""></li>
+            </ul>
+        </div>
+        <div class="list_two">
+            <ul>
+                <li><h2>Products</h2></li>
+                <li><a href="product-detail.html"><p>Inner care</p></a></li>
+                <li><a href="product-detail.html"><p>Skin care</p></a></li>
+                <li><a href="product-detail.html"><p>Scalp care</p></a></li>
+            </ul>
+        </div>
+        <div class="list_three">
+            <ul>
+                <li><h2>Guides</h2></li>
+                <li><p>News</p></li>
+                <li><p>Visions</p></li>
+                <li><p><a href="faq.html">Faq</a></p></li>
+            </ul>
+        </div>
+        <div class="list_four">
+            <ul>
+                <li><h2>Services</h2></li>
+                <li><a href="about.html"><p>About Concierge</p></a></li>
+                <li><p>Online Consultation</p></li>
+                <li><p>Market</p></li>
+            </ul>
+        </div>
+        <div class="list_five">
+            <ul>
+                <li><h2>Contact</h2></li>
+                <li><p>Contact Us</p></li>
+            </ul>
+        </div>
+    </div>
+    <div class="rights page-width">
+        <div class="sub_rights">
+            <p>CEIN. 2019 KINS All rights reserved.</p>
+        </div>
+        <div class="pages">
+            <ul>
+                <li><p>Company Profile</p></li>
+                <li><p>Privacy policy</p></li>
+                <li><p>Cancellation policy</p></li>
+                <li><p>Terms of service</p></li>
+                <li><p>Refund/Return Policy</p></li>
+            </ul>
+        </div>
+    </div>
+    </div>
+    </footer>
+
+</body>
+</html>
